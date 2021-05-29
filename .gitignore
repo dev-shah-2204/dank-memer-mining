@@ -1,0 +1,5 @@
+.git
+__pycache__
+miner_1.py
+miner_2.py
+tokens.py
