@@ -60,7 +60,7 @@ class Miner(commands.Bot):
             await sleep(50)
 
             if self.count%10 == 0: #Check if it's the 10th time the command was sent
-                await channel.send(random.choice(random.choice(break_message))) #Either a message or a command from the above lists
+                await channel.send(random.choice(random.choice(self.break_message))) #Either a message or a command from the above lists
                 await sleep(300) #Bot waits for 5 minutes before sending commands again
 
 
