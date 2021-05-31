@@ -8,25 +8,26 @@ from asyncio import sleep
 
 
 class Miner(commands.Bot):
-    def __init__(self, number, channel, token, owner_id):
-        super().__init__(command_prefix = '..',
-                         self_bot = True
-        )
+    def __init__(self, number, channel, token):
         self.number = number
         self.channel = channel
         self.token = token
         self.owner_id = owner_id
+        super().__init__(command_prefix = '..',
+                         self_bot = True
+        )
+
 
     count = 0
 
+    #Random message so that dank memer doesn't think that we're a bot
     normal_messages = [
                    'This is a completely normal message',
-                   'listen here im not a bot',
-                   'i am a normal human being',
-                   'it might seem im running on a loop but trust me im not',
-                   'this is one of my breaks that i get every 10 minutes',
-                   'nothing fishy here, keep scrolling',
-                   'ayo you got a problem?',
+                   'Listen here im not a bot',
+                   'I am a normal human being',
+                   'It might seem im running on a loop but trust me im not',
+                   'This is one of my breaks that i get every 10 minutes',
+                   'Nothing fishy here, keep scrolling'
                    'Sup <@!270904126974590976>, im not a bot'
                   ]
 
@@ -35,7 +36,6 @@ class Miner(commands.Bot):
             'pls help',
             'pls dankrate',
             'pls ferret',
-            f'pls give all <@!{owner_id}>',
             'pls sell fish all',
             'pls sell rarefish all',
             'pls sell sand all',
