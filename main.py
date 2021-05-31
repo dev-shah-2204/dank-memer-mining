@@ -12,7 +12,6 @@ class Miner(commands.Bot):
         self.number = number
         self.channel = channel
         self.token = token
-        self.owner_id = owner_id
         super().__init__(command_prefix = '..',
                          self_bot = True
         )
