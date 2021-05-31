@@ -16,44 +16,44 @@ Dank Memer WILL blacklist you from using any command if "he" gets to know you're
 Note: You won't get the same amount, it depends on luck
 Most selling prices have the multiplier boost added, so I'm not sure about the actual prices
 
-Total Multi: 37% (max of 500%)</br>
--Level up rewards (+4%)
--#dank-memer (+5%)
--Sharing LORD (+10%)
--Upvoted (+5%)
--Vote Reminder On (+5%)
--Tips Enabled (+8%)
+Total Multi: 37% (max of 500%) </br>
+-Level up rewards (+4%) </br>
+-#dank-memer (+5%) </br>
+-Sharing LORD (+10%) </br>
+-Upvoted (+5%) </br>
+-Vote Reminder On (+5%) </br>
+-Tips Enabled (+8%) </br>
 
-I let the miner run for 24 hours, and this is what I got:
+I let the miner run for 24 hours, and this is what I got: </br>
 `324,919` coins from begging
 
--19  `Alcohol` = 22,800
--27  `Bank Notes` = 270,000 (More if you trade them)
--41  `Blue Phallic Object` N/A (Trade price according to Dank-Memer is 50k-100k)
--71  `Fresh Bread` = 52,185
--13  `Candy` N/A (Don't sell them, use them)
--59  `Cookie` = 43,365
--25  `Exotic Fish` = 183,750 (More if you trade them)
--266 `Common Fish` = 391,020
--63  `Fishing Pole` = 157,500
--211 `Garbage` = 62,034
--2   `Golden Phallic Object` = N/A (Trade price according to Dank-Memer is 500k-1M)
--5   `Lucky Horseshoe` =  N/A (Don't sell them, use them)
--17  `Jelly Fish` = 199,920
--25  `Laptop` = 8,750
--18  `Padlock` = 6,300
--2   `Pizza Slice` = 50,000
--64  `Rare Fish` = 282,240
--56  `Box of Sand` = 28,000
--205 `Seaweed` = 150,675
+-19  `Alcohol` = 22,800 </br>
+-27  `Bank Notes` = 270,000 (More if you trade them) </br>
+-41  `Blue Phallic Object` N/A (Trade price according to Dank-Memer is 50k-100k) </br>
+-71  `Fresh Bread` = 52,185 </br>
+-13  `Candy` N/A (Don't sell them, use them) </br>
+-59  `Cookie` = 43,365 </br>
+-25  `Exotic Fish` = 183,750 (More if you trade them) </br>
+-266 `Common Fish` = 391,020 </br>
+-63  `Fishing Pole` = 157,500 </br>
+-211 `Garbage` = 62,034 </br>
+-2   `Golden Phallic Object` = N/A (Trade price according to Dank-Memer is 500k-1M) </br>
+-5   `Lucky Horseshoe` =  N/A (Don't sell them, use them) </br>
+-17  `Jelly Fish` = 199,920 </br>
+-25  `Laptop` = 8,750 </br>
+-18  `Padlock` = 6,300 </br>
+-2   `Pizza Slice` = 50,000 </br>
+-64  `Rare Fish` = 282,240 </br>
+-56  `Box of Sand` = 28,000 </br>
+-205 `Seaweed` = 150,675 </br>
 
 For items that were supposed to be traded, I used the lower-limit of the range. That brings us to a total of `5,283,458` coins after selling and trading all the inventory items.
 
 P.S. these are the stats of 1 miner, I had 4 running.
 
 ## HOW TO USE:
-In case you didn't figure out how to set this up, refer `example.py`.
-If you have no idea how python works, just go to https://atom.io and download it. Atom is a text editor, but for code. After doing that, follow these steps:
+In case you didn't figure out how to set this up, refer `example.py`. </br>
+If you have no idea how python works, just go to https://atom.io and download it. Atom is a text </br> editor, but for code. After doing that, follow these steps: </br>
 
 1) Open the folder containing the files in atom.
 2) Press `ctrl + ,` on your keyboard
