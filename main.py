@@ -15,6 +15,7 @@ class Miner(commands.Bot):
         self.number = number
         self.channel = channel
         self.token = token
+        self.owner_id = owner_id
 
     count = 0
 
