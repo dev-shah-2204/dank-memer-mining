@@ -8,7 +8,7 @@ example.py
 
 The code isn't very complex, it's rather simple. The bot sends 2 commands every minute; `pls beg` and `pls fish`. After doing this 10 times, the bot sends a random normal message or another dank-memer command, and then takes a 5 minute 'break'.
 
-The reason for all this fuss? Well, dank-memer is a quite smart bot. Or I should say it's developer is quite smart and probably thought this through. There are other people like me who are "mining" or "farming" dank-memer's currency, which obviously isn't very ethical. I shouldn't even be posting this on GitHub, I think, but since I'm doing it, let me explain.
+The reason for all this fuss? Well, dank-memer is a smart bot. Or I should say it's developer is quite smart and probably thought this through. There are other people like me who are "mining" or "farming" dank-memer's currency, which obviously isn't very ethical. I shouldn't even be posting this on GitHub, I think, but since I'm doing it, let me explain.
 
 Dank Memer WILL blacklist you from using any command if "he" gets to know you're mining/farming. If you make an ultra-efficient farming bot that sends the commands as soon as the command-cooldown is over 24/7 the bot WILL know that it's not a person typing the commands, it's a bot.
 
