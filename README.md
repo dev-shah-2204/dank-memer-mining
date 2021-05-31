@@ -16,7 +16,7 @@ Dank Memer WILL blacklist you from using any command if "he" gets to know you're
 Note: You won't get the same amount, it depends on luck
 Most selling prices have the multiplier boost added, so I'm not sure about the actual prices
 
-Total Multi: 37% (max of 500%)
+Total Multi: 37% (max of 500%)</br>
 -Level up rewards (+4%)
 -#dank-memer (+5%)
 -Sharing LORD (+10%)
