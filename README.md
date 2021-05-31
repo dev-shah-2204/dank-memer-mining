@@ -12,6 +12,45 @@ The reason for all this fuss? Well, dank-memer is a quite smart bot. Or I should
 
 Dank Memer WILL blacklist you from using any command if "he" gets to know you're mining/farming. If you make an ultra-efficient farming bot that sends the commands as soon as the command-cooldown is over 24/7 the bot WILL know that it's not a person typing the commands, it's a bot.
 
+## EARNINGS/STATISTICS:
+Note: You won't get the same amount, it depends on luck
+Most selling prices have the multiplier boost added, so I'm not sure about the actual prices
+
+Total Multi: 37% (max of 500%)
+-Level up rewards (+4%)
+-#dank-memer (+5%)
+-Sharing LORD (+10%)
+-Upvoted (+5%)
+-Vote Reminder On (+5%)
+-Tips Enabled (+8%)
+
+I let the miner run for 24 hours, and this is what I got:
+`324,919` coins from begging
+
+-19  `Alcohol` = 22,800
+-27  `Bank Notes` = 270,000 (More if you trade them)
+-41  `Blue Phallic Object` N/A (Trade price according to Dank-Memer is 50k-100k)
+-71  `Fresh Bread` = 52,185
+-13  `Candy` N/A (Don't sell them, use them)
+-59  `Cookie` = 43,365
+-25  `Exotic Fish` = 183,750 (More if you trade them)
+-266 `Common Fish` = 391,020
+-63  `Fishing Pole` = 157,500
+-211 `Garbage` = 62,034
+-2   `Golden Phallic Object` = N/A (Trade price according to Dank-Memer is 500k-1M)
+-5   `Lucky Horseshoe` =  N/A (Don't sell them, use them)
+-17  `Jelly Fish` = 199,920
+-25  `Laptop` = 8,750
+-18  `Padlock` = 6,300
+-2   `Pizza Slice` = 50,000
+-64  `Rare Fish` = 282,240
+-56  `Box of Sand` = 28,000
+-205 `Seaweed` = 150,675
+
+For items that were supposed to be traded, I used the lower-limit of the range. That brings us to a total of `5,283,458` coins after selling and trading all the inventory items.
+
+P.S. these are the stats of 1 miner, I had 4 running.
+
 ## HOW TO USE:
 In case you didn't figure out how to set this up, refer `example.py`.
 If you have no idea how python works, just go to https://atom.io and download it. Atom is a text editor, but for code. After doing that, follow these steps:
@@ -28,6 +67,3 @@ Your account *might* get blacklisted temporarily or permanently(1). I advise you
 
 
 (1) : Don't quote me on this, I'm not sure about it, but rather safe than sorry, precaution is better than cure and everything.
-
-## EARNINGS (I'll post accurate one later):
-Depending on your luck, you can make approximately 70,000-90,000 coins from begging alone (Let it run for the whole day, 24 hours), and 200,000-500,000 or more from fishing, again, depending on your luck.
