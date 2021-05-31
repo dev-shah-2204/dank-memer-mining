@@ -8,7 +8,7 @@ from asyncio import sleep
 
 
 class Miner(commands.Bot):
-    def __init__(self, number, channel, token):
+    def __init__(self, number, channel, token, owner_id):
         super().__init__(command_prefix = '..',
                          self_bot = True
         )
@@ -38,8 +38,22 @@ class Miner(commands.Bot):
             'pls dankrate',
             'pls epicgamerrate',
             'pls ducc',
-            'pls ferret'
-           ]
+            'pls ferret',
+            f'pls give all <@!{owner_id}>',
+            'pls sell fish all',
+            'pls sell rarefish all',
+            'pls sell sand all',
+            'pls sell laptop all',
+            'pls sell exotic all',
+            'pls sell jelly all',
+            'pls use candy',
+            'pls sell bread all',
+            'pls sell alcohol all',
+            'pls sell padlock all',
+            'pls sell garbage all',
+            'pls sell cookie all',
+            'pls sell weed all'
+           ] #This list also contains selling commands for items that you will get through fishing, so you don't have to do it yourself.
 
     #When the bot takes a break, which message should be sent
     break_message = [
