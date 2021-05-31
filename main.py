@@ -32,12 +32,7 @@ class Miner(commands.Bot):
     #Random commands, so that dank memer... you read the comment above...
     commands = [
             'pls help',
-            'pls help image',
-            'pls vr',
-            'pls help currency',
             'pls dankrate',
-            'pls epicgamerrate',
-            'pls ducc',
             'pls ferret',
             f'pls give all <@!{owner_id}>',
             'pls sell fish all',
