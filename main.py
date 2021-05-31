@@ -30,6 +30,9 @@ class Miner(commands.Bot):
                    'Sup <@!270904126974590976>, im not a bot'
                   ]
 
+    def get_owner(self):
+        return self.owner_id
+
     #Random commands, so that dank memer... you read the comment above...
     commands = [
             'pls help',
@@ -59,7 +62,6 @@ class Miner(commands.Bot):
     async def on_ready(self):
         print(f"dank-memer-miner-{self.number} online.")
         channel = self.get_channel(self.channel)
-
         while True:
             await channel.send('pls beg')
             await sleep(1)
