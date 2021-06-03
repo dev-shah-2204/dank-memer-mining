@@ -2,6 +2,7 @@
 ```
 main.py
 example.py
+control_miner.py
 ```
 
 # DANK-MEMER CURRENCY MINER SELF-BOT
