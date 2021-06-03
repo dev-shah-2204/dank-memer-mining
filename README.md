@@ -63,6 +63,13 @@ If you have no idea how python works, just go to https://atom.io and download it
 
 If you don't know how to get the channel ID or your token, look it up on YouTube, I can't type it all here.
 
+## HOW TO TRANSFER MONEY:
+
+1) Open `control_miner.py` and enter your credentials
+2) Run file
+3) After the command window says `ready`, start typing your messages
+
+
 ## WARNING:
 Your account *might* get blacklisted temporarily or permanently(1). I advise you to make another account that you don't plan on using for chatting, joining other servers etc..
 
