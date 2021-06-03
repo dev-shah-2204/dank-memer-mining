@@ -35,15 +35,12 @@ class Miner(commands.Bot):
 
     #Random commands, so that dank memer... you read the comment above...
     commands = [
+            'pls use candy',
             'pls help',
             'pls dankrate',
             'pls ferret',
-            'pls sell fish all',
-            'pls sell rarefish all',
             'pls sell sand all',
             'pls sell laptop all',
-            'pls sell exotic all',
-            'pls sell jelly all',
             'pls use candy',
             'pls sell bread all',
             'pls sell alcohol all',
