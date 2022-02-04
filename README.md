@@ -26,13 +26,15 @@ Dank Memer WILL blacklist you from using any command if "he" gets to know you're
 ## EARNINGS/STATISTICS:
 Most selling prices have the multiplier boost added, so I'm not sure about the actual prices
 
+```
 Total Multi: 37% (max of 500%)
--Level up rewards (+4%) </br>
--#dank-memer (+5%) </br>
--Sharing LORD (+10%) </br>
--Upvoted (+5%) </br>
--Vote Reminder On (+5%) </br>
--Tips Enabled (+8%) </br>
+-Level up rewards (+4%)
+-#dank-memer (+5%)
+-Sharing LORD (+10%)
+-Upvoted (+5%)
+-Vote Reminder On (+5%)
+-Tips Enabled (+8%)
+```
 
 I let the miner run for 24 hours, and this is what I got(2): </br>
 `324,919` coins from begging
@@ -69,6 +71,11 @@ If you have no idea how python works, just go to https://atom.io and download it
 4) Open CMD or PowerShell and type `pip install discord`
 5) After that, open the `example.py` file, enter your token and channel ID, and then press  `F5`
 6) When running `control_miner.py` file, you'll need to change the channel ID and your token in there again (line 20 and line 30 respectively)
+
+I recommend you having atleast 15 of these items: <br>
+1) Fishing Pole (duh?)
+2) Shovel (also duh?)
+3) Life Saver
 
 If you don't know how to get the channel ID or your token, look it up on YouTube, I can't type it all here.
 
