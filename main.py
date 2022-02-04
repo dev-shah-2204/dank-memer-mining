@@ -12,65 +12,52 @@ class Miner(commands.Bot):
         self.number = number
         self.channel = channel
         self.token = token
-        super().__init__(command_prefix = '..',
-                         self_bot = True
+        super().__init__(
+            command_prefix = '..',
+            self_bot = True
         )
 
-
     count = 0
-
-    #Random message so that dank memer doesn't think that we're a bot
-    normal_messages = [
-                   'This is a completely normal message',
-                   'Listen here im not a bot',
-                   'I am a normal human being',
-                   'It might seem im running on a loop but trust me im not',
-                   'This is one of my breaks that i get every 10 minutes',
-                   'Nothing fishy here, keep scrolling'
-                   'Sup <@!270904126974590976>, im not a bot'
-                  ]
 
     def get_owner(self):
         return self.owner_id
 
-    #Random commands, so that dank memer... you read the comment above...
+    #Random commands, so that dank memer doesn't think we're a bot running the same commands over and over
     commands = [
-            'pls use candy',
-            'pls help',
-            'pls dankrate',
-            'pls ferret',
-            'pls sell sand all',
-            'pls sell laptop all',
-            'pls use candy',
-            'pls sell bread all',
-            'pls sell alcohol all',
-            'pls sell padlock all',
-            'pls sell garbage all',
-            'pls sell cookie all',
-            'pls sell weed all'
-           ] #This list also contains selling commands for items that you will get through fishing, so you don't have to do it yourself.
+        'pls use candy',
+        'pls help',
+        'pls dankrate',
+        'pls ferret',
+        'pls sell candy',
+        'pls dog',
+        'pls cat',
+        'pls fox',
+        'pls ducc',
+        'pls bal',
+        'pls inv'
+           ]
 
-    #When the bot takes a break, which message should be sent
-    break_message = [
-                normal_messages,
-                commands
-    ]
 
     async def on_ready(self):
         print(f"dank-memer-miner-{self.number} online.")
         channel = self.get_channel(self.channel)
+
         while True:
             await channel.send('pls beg')
+
             await sleep(1)
             await channel.send('pls fish') #Optional, but drastically increases the earnings
 
+            await sleep(1)
+            await channel.send('pls dig')  #Optional, but drastically increases the earnings
+
             self.count += 1
-            await sleep(50)
+            await sleep(44)
 
             if self.count%10 == 0: #Check if it's the 10th time the command was sent
-                await channel.send(random.choice(random.choice(self.break_message))) #Either a message or a command from the above lists
-                await sleep(300) #Bot waits for 5 minutes before sending commands again
+                await channel.send(random.choice(self.commands))
+                await sleep(120) #Bot waits for 2 minutes before sending commands again
 
 
     def run(self):
-        super().run(self.token, bot = False)
+        super().run(self.token, bot=False)

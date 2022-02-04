@@ -1,4 +1,10 @@
 import discord
+
+try:
+    import tokens
+except ImportError:
+    pass
+
 from discord.ext import commands
 
 class BotControl(commands.Bot):
@@ -11,7 +17,7 @@ class BotControl(commands.Bot):
 
     async def on_ready(self):
         print('ready')
-        channel = self.get_channel(int('ENTER YOUR CHANNEL ID HERES'))
+        channel = self.get_channel(827561383650525223)  # Enter your channel ID here
 
         while True:
             ask = input()
@@ -21,7 +27,7 @@ class BotControl(commands.Bot):
         super().run(self.token, bot = False)
 
 
-miner = BotControl(token = "ENTER YOUR TOKEN HERE")
+miner = BotControl(token = tokens.miner_2)  # Enter your token here
 miner.run()
 
 """
